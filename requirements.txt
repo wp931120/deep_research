@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+langchain-google-genai
+langchain-community
+tavily-python
