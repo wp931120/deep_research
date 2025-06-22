@@ -6,9 +6,8 @@ DeepResearch 是一个基于大型语言模型（LLM）的深度研究代理。�
 支持本地ollama ,vllm, 以及openrouter 等大模型调用方式。
 ## 功能特点
 主要实现下方流程图
-   ```
 ![image](https://github.com/user-attachments/assets/c0f22ff7-c236-40b5-86a9-faec43652d6a)
-
+   ```
 - **智能查询生成**：根据研究主题自动生成多轮查询。
 - **网络研究**：通过网络搜索获取相关信息和数据。
 - **结果反思**：对搜索结果进行分析和反思，识别知识空白并生成后续查询。
