@@ -3,8 +3,11 @@
 ## 项目概述
 
 DeepResearch 是一个基于大型语言模型（LLM）的深度研究代理。它能够根据用户提供的主题，自动生成研究查询，执行网络搜索，对搜索结果进行反思，并最终生成一份全面的研究报告。该系统旨在自动化和优化信息收集与分析的过程，为用户提供深入的洞察。
-
+支持本地ollama ,vllm，以及openrouter 等大模型调用方式。
 ## 功能特点
+主要实现下方流程图
+   ```
+![image](https://github.com/user-attachments/assets/c0f22ff7-c236-40b5-86a9-faec43652d6a)
 
 - **智能查询生成**：根据研究主题自动生成多轮查询。
 - **网络研究**：通过网络搜索获取相关信息和数据。
@@ -48,14 +51,6 @@ DeepResearch 是一个基于大型语言模型（LLM）的深度研究代理。�
    - `langchain-community`
    - `tavily-python`
 
-4. **配置环境变量**：
-
-   创建 `.env` 文件并配置您的 API 密钥（例如，Google Gemini API 密钥、Tavily API 密钥等）。
-
-   ```
-   GOOGLE_API_KEY=your_google_api_key
-   TAVILY_API_KEY=your_tavily_api_key
-   ```
 
 ## 使用
 
