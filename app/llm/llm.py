@@ -22,7 +22,7 @@ class LLM:
         else:
             self.client = openai.OpenAI(
                 base_url="https://openrouter.ai/api/v1",
-                api_key="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",
+                api_key="*****"
             )
             self.model = "moonshotai/kimi-dev-72b:free"
         self.temperature = 0.7
